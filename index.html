@@ -4,13 +4,54 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+         <link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>Starter App</title>
+</head>
 <body>
    <div id="container">
      <div class="row">
-	<h1 class="jumbotron col-md-12 text-center">Hello World!</h1>
-	<h3 class="jumbotron col-md-12 text-success text-center">I Have ARRIVED!!!!!</h3> 
+	<h1 class="headText1 jumbotron col-md-12 text-center">Hello Fred's Pharmacy Customer</h1>
+	<h3 class="headText jumbotron col-md-12 text-success text-center">The pharmacy you are attempting to place an order with is now closed. Your local Walgreens holds your current script files and would be happy to assist you. Please check the table below for current information on pharmacy closings and where to best pick up your presecriptions from a neighboring Walgreen's.</h3> 
      </div>
+   <table id="storeList">
+		<tr>
+			<th>Address</th>
+			<th>Date Closed</th>
+			<th>Files transferred to:</th>
+		</tr>
+		<tr>
+			<td>3308 Smith Lane Atlanta</td>
+			<td>October 10, 2018</td>
+			<td><a href="http://google.com">New Site</a></td>	
+		</tr>
+		<tr>
+			<td>4501 Broad Street Birmingham</td>
+			<td>October 10, 2018</td>
+			<td><a href="http://google.com"><img src="wag_logo.jpg"/></a></td>
+		</tr>
+		<tr>
+			<td>1899 Goodman Road Horn Lake</td>
+			<td>October 25, 2018</td>
+			<td><a href="http://google.com">New Site</a></td>
+		</tr>
+		<tr>
+			<td>3308 Smith Lane Atlanta</td>
+			<td>October 10, 2018</td>
+			<td><a href="http://google.com"><img src="wag_logo.jpg"/></a></td>	
+		</tr>
+		<tr>
+			<td>4501 Broad Street Birmingham</td>
+			<td>October 10, 2018</td>
+			<td><a href="http://google.com">New Site</a></td>
+		</tr>
+		<tr>
+			<td>1899 Goodman Road Horn Lake</td>
+			<td>October 25, 2018</td>
+			<td><a href="http://google.com"><img src="wag_logo.jpg"/></a></td>
+		</tr>
+   </table>
+   <button class="biglink btn btn-success btn-large"><a href="https://ecom.nhin.com/nhin/servlet/EpsEntry?CHAIN_ID=FREDS&STORE_ID=ALL&INIT=YES">Prescription Sign In</a></button>
    </div>
 	<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

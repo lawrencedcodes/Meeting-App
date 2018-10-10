@@ -1,13 +1,52 @@
-* {
+
+html, {
+ height: 100%;
+ width: 100%;
  margin: 0;
  padding: 0;
  }
-html, body {
- height: 100%;
- width: 100%;
- }
 body {
-  background: black;
-  color: white;
+  background-color: #0C7FC4;
+  color: black;
+  text-align: center;
+  margin: auto auto;
+  max-width: 80%;
+  display: block;
+  box-sizing: border-box;
+}
+.headText {
+	background-color: #8CC53E;
+	margin: 10px auto;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+.headText1 {
+	color: #0276C1;
+	background-color: #8CC53E;
+	margin: 10px auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+}
+#storeList {
+	margin: auto auto;
 }
 
+tr {
+	margin-bottom: 55px;
+	border-bottom: 1px solid green;
+	background-color: white;
+	
+}
+td, th, a {
+	width: 275px;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	margin: 15px;
+	color: blue;
+}
+.biglink {
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+}

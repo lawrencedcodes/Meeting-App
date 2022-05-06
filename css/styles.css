@@ -1,6 +1,7 @@
 body {
     background-color: darkslategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 80%;
     }
 #header {
     background-color: cornflowerblue;

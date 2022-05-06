@@ -1,10 +1,11 @@
 body {
-    background-color: darkslategray;
+    background-color: #483248;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 80%;
+    color: white;
     }
 #header {
-    background-color: cornflowerblue;
+    background-color: #CF9FFF;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -26,7 +27,7 @@ label {
 .person-row {
     margin: 10px 0;
     padding: 10px;
-    background-color: darkorange;
+    background-color: #CF9FFF;
     width: 100%;
     float: left;
 }

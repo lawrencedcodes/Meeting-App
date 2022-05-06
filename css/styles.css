@@ -1,7 +1,8 @@
 body {
-    background-color: #483248;
+    background-color: #482c3a;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 80%;
+    margin: 0 auto;
     color: white;
     }
 #header {
@@ -27,7 +28,7 @@ label {
 .person-row {
     margin: 10px 0;
     padding: 10px;
-    background-color: #CF9FFF;
+    background-color: #2c483a;
     width: 100%;
     float: left;
 }

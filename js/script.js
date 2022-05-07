@@ -14,7 +14,7 @@ const users = [
     {
         name: 'Jimmy',
         gender: 'M',
-        hobby: 'sports',
+        hobby: 'music',
         avi: 'pic3.jpg'
     },
     {
@@ -22,7 +22,104 @@ const users = [
         gender: 'F',
         hobby: 'pets',
         avi: 'pic4.jpg'
+    },
+     {
+        name: 'Mary',
+        gender: 'F',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/women/36.jpg'
+    },
+    {
+        name: 'Mark',
+        gender: 'M',
+        hobby: 'music',
+        avi: 'https://randomuser.me/api/portraits/men/55.jpg'
+    },
+    {
+        name: 'Matthew',
+        gender: 'M',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/men/91.jpg'
+    },
+    {
+        name: 'Muriel',
+        gender: 'F',
+        hobby: 'pets',
+        avi: 'https://randomuser.me/api/portraits/women/51.jpg'
+    },
+ {
+        name: 'April',
+        gender: 'F',
+        hobby: 'music',
+        avi: 'https://randomuser.me/api/portraits/women/89.jpg'
+    },
+    {
+        name: 'Alexander',
+        gender: 'M',
+        hobby: 'pets',
+        avi: 'https://randomuser.me/api/portraits/men/35.jpg'
+    },
+    {
+        name: 'Anthony',
+        gender: 'M',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/men/47.jpg'
+    },
+    {
+        name: 'Aria',
+        gender: 'F',
+        hobby: 'music',
+        avi: 'https://randomuser.me/api/portraits/women/27.jpg'
+    },
+ {
+        name: 'Tiana',
+        gender: 'F',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/women/6.jpg'
+    },
+    {
+        name: 'Tyler',
+        gender: 'M',
+        hobby: 'pets',
+        avi: 'https://randomuser.me/api/portraits/men/1.jpg'
+    },
+    {
+        name: 'Tristan',
+        gender: 'M',
+        hobby: 'music',
+        avi: 'https://randomuser.me/api/portraits/men/66.jpg'
+    },
+    {
+        name: 'Thalia',
+        gender: 'F',
+        hobby: 'pets',
+        avi: 'https://randomuser.me/api/portraits/women/3.jpgg'
+    },
+ {
+        name: 'Layla',
+        gender: 'F',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/women/41.jpg'
+    },
+    {
+        name: 'Luke',
+        gender: 'M',
+        hobby: 'music',
+        avi: 'https://randomuser.me/api/portraits/men/75.jpg'
+    },
+    {
+        name: 'Lincoln',
+        gender: 'M',
+        hobby: 'sports',
+        avi: 'https://randomuser.me/api/portraits/men/50.jpg'
+    },
+    {
+        name: 'Leah',
+        gender: 'F',
+        hobby: 'pets',
+        avi: 'https://randomuser.me/api/portraits/women/54.jpg'
     }
+
 ];
 
 window.addEventListener('load', function () {
